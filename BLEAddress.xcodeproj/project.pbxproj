@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B09DE19D1EAA53EB004824BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE19C1EAA53EB004824BB /* AppDelegate.swift */; };
+		B09DE1A21EAA53EB004824BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09DE1A01EAA53EB004824BB /* Main.storyboard */; };
+		B09DE1A41EAA53EB004824BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09DE1A31EAA53EB004824BB /* Assets.xcassets */; };
+		B09DE1A71EAA53EB004824BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09DE1A51EAA53EB004824BB /* LaunchScreen.storyboard */; };
+		B09DE1B21EAA57C1004824BB /* ScanDeviceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE1B11EAA57C1004824BB /* ScanDeviceCell.swift */; };
+		B09DE1B41EAA597D004824BB /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE1B31EAA597D004824BB /* LoginPage.swift */; };
+		B09DE1B61EAA5998004824BB /* LoginItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE1B51EAA5998004824BB /* LoginItem.swift */; };
+		B09DE1B81EAA59A4004824BB /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE1B71EAA59A4004824BB /* LoginCell.swift */; };
+		B09DE1BA1EAA59B6004824BB /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE1B91EAA59B6004824BB /* BaseCell.swift */; };
+		B09DE1BC1EAA6104004824BB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE1BB1EAA6104004824BB /* Extension.swift */; };
+		B09DE1BE1EAACFE6004824BB /* ScanDevicePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE1BD1EAACFE6004824BB /* ScanDevicePage.swift */; };
+		B09DE1C01EAAD28A004824BB /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE1BF1EAAD28A004824BB /* HeaderCell.swift */; };
+		B09DE1C21EAB10E4004824BB /* CallBackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE1C11EAB10E4004824BB /* CallBackList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B09DE1991EAA53EA004824BB /* BLEAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09DE19C1EAA53EB004824BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B09DE1A11EAA53EB004824BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B09DE1A31EAA53EB004824BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B09DE1A61EAA53EB004824BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B09DE1A81EAA53EB004824BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09DE1B11EAA57C1004824BB /* ScanDeviceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanDeviceCell.swift; sourceTree = "<group>"; };
+		B09DE1B31EAA597D004824BB /* LoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		B09DE1B51EAA5998004824BB /* LoginItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginItem.swift; sourceTree = "<group>"; };
+		B09DE1B71EAA59A4004824BB /* LoginCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		B09DE1B91EAA59B6004824BB /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		B09DE1BB1EAA6104004824BB /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B09DE1BD1EAACFE6004824BB /* ScanDevicePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanDevicePage.swift; sourceTree = "<group>"; };
+		B09DE1BF1EAAD28A004824BB /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		B09DE1C11EAB10E4004824BB /* CallBackList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallBackList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B09DE1961EAA53EA004824BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B09DE1901EAA53EA004824BB = {
+			isa = PBXGroup;
+			children = (
+				B09DE19B1EAA53EB004824BB /* BLEAddress */,
+				B09DE19A1EAA53EA004824BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B09DE19A1EAA53EA004824BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B09DE1991EAA53EA004824BB /* BLEAddress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B09DE19B1EAA53EB004824BB /* BLEAddress */ = {
+			isa = PBXGroup;
+			children = (
+				B09DE1B01EAA5658004824BB /* Model */,
+				B09DE1AF1EAA5650004824BB /* Controller */,
+				B09DE1AE1EAA5647004824BB /* VIew */,
+				B09DE19C1EAA53EB004824BB /* AppDelegate.swift */,
+				B09DE1A01EAA53EB004824BB /* Main.storyboard */,
+				B09DE1A31EAA53EB004824BB /* Assets.xcassets */,
+				B09DE1A51EAA53EB004824BB /* LaunchScreen.storyboard */,
+				B09DE1A81EAA53EB004824BB /* Info.plist */,
+			);
+			path = BLEAddress;
+			sourceTree = "<group>";
+		};
+		B09DE1AE1EAA5647004824BB /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				B09DE1B11EAA57C1004824BB /* ScanDeviceCell.swift */,
+				B09DE1B71EAA59A4004824BB /* LoginCell.swift */,
+				B09DE1B91EAA59B6004824BB /* BaseCell.swift */,
+				B09DE1BB1EAA6104004824BB /* Extension.swift */,
+				B09DE1BF1EAAD28A004824BB /* HeaderCell.swift */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		B09DE1AF1EAA5650004824BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B09DE1B31EAA597D004824BB /* LoginPage.swift */,
+				B09DE1BD1EAACFE6004824BB /* ScanDevicePage.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B09DE1B01EAA5658004824BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B09DE1B51EAA5998004824BB /* LoginItem.swift */,
+				B09DE1C11EAB10E4004824BB /* CallBackList.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B09DE1981EAA53EA004824BB /* BLEAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09DE1AB1EAA53EB004824BB /* Build configuration list for PBXNativeTarget "BLEAddress" */;
+			buildPhases = (
+				B09DE1951EAA53EA004824BB /* Sources */,
+				B09DE1961EAA53EA004824BB /* Frameworks */,
+				B09DE1971EAA53EA004824BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEAddress;
+			productName = BLEAddress;
+			productReference = B09DE1991EAA53EA004824BB /* BLEAddress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B09DE1911EAA53EA004824BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ANSV;
+				TargetAttributes = {
+					B09DE1981EAA53EA004824BB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7Z6QF5EB3Y;
+					};
+				};
+			};
+			buildConfigurationList = B09DE1941EAA53EA004824BB /* Build configuration list for PBXProject "BLEAddress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B09DE1901EAA53EA004824BB;
+			productRefGroup = B09DE19A1EAA53EA004824BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B09DE1981EAA53EA004824BB /* BLEAddress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B09DE1971EAA53EA004824BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09DE1A71EAA53EB004824BB /* LaunchScreen.storyboard in Resources */,
+				B09DE1A41EAA53EB004824BB /* Assets.xcassets in Resources */,
+				B09DE1A21EAA53EB004824BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B09DE1951EAA53EA004824BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09DE1B41EAA597D004824BB /* LoginPage.swift in Sources */,
+				B09DE1BE1EAACFE6004824BB /* ScanDevicePage.swift in Sources */,
+				B09DE1B61EAA5998004824BB /* LoginItem.swift in Sources */,
+				B09DE1BC1EAA6104004824BB /* Extension.swift in Sources */,
+				B09DE1C21EAB10E4004824BB /* CallBackList.swift in Sources */,
+				B09DE1C01EAAD28A004824BB /* HeaderCell.swift in Sources */,
+				B09DE1B21EAA57C1004824BB /* ScanDeviceCell.swift in Sources */,
+				B09DE1BA1EAA59B6004824BB /* BaseCell.swift in Sources */,
+				B09DE19D1EAA53EB004824BB /* AppDelegate.swift in Sources */,
+				B09DE1B81EAA59A4004824BB /* LoginCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B09DE1A01EAA53EB004824BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09DE1A11EAA53EB004824BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B09DE1A51EAA53EB004824BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09DE1A61EAA53EB004824BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B09DE1A91EAA53EB004824BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B09DE1AA1EAA53EB004824BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B09DE1AC1EAA53EB004824BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLEAddress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vnpt.BLEAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B09DE1AD1EAA53EB004824BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BLEAddress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vnpt.BLEAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B09DE1941EAA53EA004824BB /* Build configuration list for PBXProject "BLEAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09DE1A91EAA53EB004824BB /* Debug */,
+				B09DE1AA1EAA53EB004824BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09DE1AB1EAA53EB004824BB /* Build configuration list for PBXNativeTarget "BLEAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B09DE1AC1EAA53EB004824BB /* Debug */,
+				B09DE1AD1EAA53EB004824BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B09DE1911EAA53EA004824BB /* Project object */;
+}
